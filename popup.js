@@ -1,4 +1,3 @@
-// popup.js
 let popupDiv;
 
 function createPopup() {
@@ -22,10 +21,18 @@ function createPopup() {
 
 function showPopup(info) {
   console.log("showPopup called:", info);
-  popupDiv.html(info);
-  popupDiv.style('display', 'block');
+  if (popupDiv) {
+    popupDiv.html(info);
+    popupDiv.style('display', 'block');
+  } else {
+    console.warn("popupDiv не создан! Проверьте, что функция createPopup() была вызвана.");
+  }
 }
 
 function hidePopup() {
-  popupDiv.style('display', 'none');
+  if (popupDiv) {
+    popupDiv.style('display', 'none');
+  } else {
+    console.warn('popupDiv не создан! Функция createPopup() не была вызвана или произошла ошибка.');
+  }
 }
