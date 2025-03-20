@@ -31,7 +31,7 @@ function preloadCookies() {
   centerGif = loadImage("aac.gif");
   
   // Загружаем звук (убедитесь, что путь корректный)
-  cookieSound = loadSound("0317.mp3");
+  cookieSound = loadSound("0317.MP3");
 }
 
 // Функция setupCookies() – инициализирует позицию печеньки (звук теперь не запускается здесь)
