@@ -12,43 +12,43 @@ let albumCovers = {};
  */
 function preloadAlbumCovers() {
   // Проверьте, что пути корректны и файлы существуют!
-  albumCovers["контроль"] = loadImage("обложки/Контроль.png", 
+  albumCovers["контроль"] = loadImage("Контроль.png", 
     () => { console.log("Cover 'Контроль' loaded"); }, 
     () => { console.error("Error loading cover 'Контроль'"); }
   );
-  albumCovers["чёрная_метка"] = loadImage("обложки/Чёрная_метка.jpg", 
+  albumCovers["чёрная_метка"] = loadImage("Чёрная_метка.jpg", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["зверь_без_нации"] = loadImage("обложки/Зверь_без_нации.jpg", 
+  albumCovers["зверь_без_нации"] = loadImage("Зверь_без_нации.jpg", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["сожги_этот_альбом"] = loadImage("обложки/Сожги_Этот_Альбом.jpg", 
+  albumCovers["сожги_этот_альбом"] = loadImage("Сожги_Этот_Альбом.jpg", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["повестка"] = loadImage("обложки/ПОВЕСТКА.jpg", 
+  albumCovers["повестка"] = loadImage("ПОВЕСТКА.jpg", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["повес2ка"] = loadImage("обложки/Повес2ка.png", 
+  albumCovers["повес2ка"] = loadImage("Повес2ка.png", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["пов3стка"] = loadImage("обложки/Пов3стка.png", 
+  albumCovers["пов3стка"] = loadImage("Пов3стка.png", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["у_себя_на_кухне"] = loadImage("обложки/У_себя_на_кухне.png", 
+  albumCovers["у_себя_на_кухне"] = loadImage("У_себя_на_кухне.png", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["mlab"] = loadImage("обложки/MLAB.jpeg", 
+  albumCovers["mlab"] = loadImage("MLAB.jpeg", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
-  albumCovers["my_little_dead_boy"] = loadImage("обложки/My_Little_Dead_Boy.jpg", 
+  albumCovers["my_little_dead_boy"] = loadImage("My_Little_Dead_Boy.jpg", 
     () => { console.log("Cover 'another_album' loaded"); }, 
     () => { console.error("Error loading cover 'another_album'"); }
   );
@@ -56,67 +56,67 @@ function preloadAlbumCovers() {
 
   
   // Пример для синглов:
-  albumCovers["good_not_ok"] = loadImage("обложки/Good_Not_Ok.jpg", 
+  albumCovers["good_not_ok"] = loadImage("Good_Not_Ok.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["jija"] = loadImage("обложки/JIJA.jpg", 
+  albumCovers["jija"] = loadImage("JIJA.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["алло"] = loadImage("обложки/АЛЛО.jpg", 
+  albumCovers["алло"] = loadImage("АЛЛО.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["гвозди"] = loadImage("обложки/Гвозди.jpg", 
+  albumCovers["гвозди"] = loadImage("Гвозди.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["коалко"] = loadImage("обложки/КОАЛКО.jpg", 
+  albumCovers["коалко"] = loadImage("КОАЛКО.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["паразиты"] = loadImage("обложки/Паразиты.jpg", 
+  albumCovers["паразиты"] = loadImage("Паразиты.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["самовывоз"] = loadImage("обложки/Самовывоз.jpg", 
+  albumCovers["самовывоз"] = loadImage("Самовывоз.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["стая_1993"] = loadImage("обложки/СТАЯ_1993.jpg", 
+  albumCovers["стая_1993"] = loadImage("СТАЯ_1993.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["степь"] = loadImage("обложки/Степь.jpeg", 
+  albumCovers["степь"] = loadImage("Степь.jpeg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["фуф"] = loadImage("обложки/Фуф.jpg", 
+  albumCovers["фуф"] = loadImage("Фуф.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["чёрство"] = loadImage("обложки/Чёрство.jpg", 
+  albumCovers["чёрство"] = loadImage("Чёрство.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["konstrukt"] = loadImage("обложки/KONSTRUKT.png", 
+  albumCovers["konstrukt"] = loadImage("KONSTRUKT.png", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["no_comments"] = loadImage("обложки/No_Comments.jpg", 
+  albumCovers["no_comments"] = loadImage("No_Comments.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["ok_loqi"] = loadImage("обложки/OK_LOQI.jpg", 
+  albumCovers["ok_loqi"] = loadImage("OK_LOQI.jpg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["живой_питер_2018_(live)"] = loadImage("обложки/живпит.jpeg", 
+  albumCovers["живой_питер_2018_(live)"] = loadImage("живпит.jpeg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
-  albumCovers["зомби_надо_хоронить_(live)"] = loadImage("обложки/знб.jpeg", 
+  albumCovers["зомби_надо_хоронить_(live)"] = loadImage("знб.jpeg", 
     () => { console.log("Cover 'single_one' loaded"); }, 
     () => { console.error("Error loading cover 'single_one'"); }
   );
