@@ -33,7 +33,7 @@ let albumFacts = {
     img: []
   },
   "My_Little_Dead_Boy": {
-    text: `Выпущен 6 декабря 2024 г.<br>Супер важный для меня альбом, который пробирает до мурашек и берет за душу. Это вторые версии старых, добрых, любимых треков (и еще три новых трека). Частичка концертов, которых давно нет. Чтобы лучше понять, зачем и почему этот альбом, настоятельно рекомендую почитать этот пост из <a href="https://t.me/Loqiemeantg/1536" target="_blank" style="color: #4fc3f7;">ТГК Ромы</a><br>Как я когда-то писала: «Спасибо, что проникаешь в сердца людям, чтобы вечность еще петь. Большое счастье, что вечность будет звучать именно так»<br>Отмечены: Пёс v2, Ёк ёк v2, В полупустой хате v2, Стая 1993 v2, Спасибо за опыт, Как у людей<br>Фавориты: Буду быть v2, Удочка для охоты v2, Гибрид. Гибридом и вдохновлен мой рисунок, а именно строчками из него:<br><br>Ты запала на мой оскал<br>«Ай, как остро!<br>Вот бы мне такого монстра<br>В дом».`
+    text: `Выпущен 6 декабря 2024 г.<br>Супер важный для меня альбом, который пробирает до мурашек и берет за душу. Это вторые версии старых, добрых, любимых треков (и еще три новых трека). Частичка концертов, которых давно нет. Чтобы лучше понять, зачем и почему этот альбом, настоятельно рекомендую почитать этот пост из <a href="https://t.me/Loqiemeantg/1536" target="_blank" style="color: #4fc3f7;">ТГК Ромы</a><br>Как я когда-то писала: «Спасибо, что проникаешь в сердца людям, чтобы вечность еще петь. Большое счастье, что вечность будет звучать именно так»<br>Отмечены: Пёс v2, Ёк ёк v2, В полупустой хате v2, Стая 1993 v2, Спасибо за опыт, Как у людей<br>Фавориты: Буду быть v2, Удочка для охоты v2, Гибрид. Гибридом и вдохновлен мой рисунок, а именно строчками из него:<br><br>Ты запала на мой оскал<br>«Ай, как остро!<br>Вот бы мне такого монстра<br>В дом».`,
     img: []
   },
   "У_себя_на_кухне": {
@@ -64,11 +64,10 @@ function createAlbumFactsPopup() {
   albumFactsPopupDiv.style('top', '120px'); // Располагается ниже основного popup.js (top: 20px)
   albumFactsPopupDiv.style('right', '20px');
   albumFactsPopupDiv.style('width', '300px');
-
+  
   albumFactsPopupDiv.style('max-height', '80vh');
   albumFactsPopupDiv.style('overflow-y', 'auto');
-
-
+  
   albumFactsPopupDiv.style('background-color', 'rgba(0, 0, 0, 0.8)');
   albumFactsPopupDiv.style('color', '#fff');
   albumFactsPopupDiv.style('padding', '10px');
@@ -78,7 +77,7 @@ function createAlbumFactsPopup() {
   albumFactsPopupDiv.style('line-height', '1.5');
   albumFactsPopupDiv.style('z-index', '10000'); // Очень высокий z-index
   albumFactsPopupDiv.style('display', 'none');
-
+  
   albumFactsPopupDiv.elt.addEventListener('wheel', function(e) {
     e.stopPropagation();
   }, { passive: false });
