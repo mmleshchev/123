@@ -17,18 +17,18 @@ let cookieSound;
 // Функция preloadCookies() – загружает все необходимые ресурсы
 function preloadCookies() {
   // Загрузите текстуру печеньки (проверьте путь)
-  cookieImg = loadImage("./обложки/кукис.png");
+  cookieImg = loadImage("кукис.png");
   
   // Новый фон
-  newBg = loadImage("./обложки/backgroundcookies.jpg");
+  newBg = loadImage("backgroundcookies.jpg");
   
   // Загружаем 4 изображения для углов (предполагается, что файлы называются corner1.jpg, corner2.jpg, corner3.jpg, corner4.jpg)
   for (let i = 1; i <= 4; i++) {
-    cornerImgs.push(loadImage(`./обложки/corner${i}.jpg`));
+    cornerImgs.push(loadImage(`corner${i}.jpg`));
   }
   
   // Загружаем GIF для центра вместо видео
-  centerGif = loadImage("./обложки/aac.gif");
+  centerGif = loadImage("aac.gif");
   
   // Загружаем звук (убедитесь, что путь корректный)
   cookieSound = loadSound("0317.mp3");
