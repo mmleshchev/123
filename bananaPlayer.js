@@ -7,7 +7,7 @@ let timelineSlider, volumeSlider, playPauseButton;
 
 function preloadBananaPlayer() {
   // Обратите внимание на корректность путей (например, если файлы лежат в папке assets)
-  bananaImg = loadImage("./обложки/банано.png");
+  bananaImg = loadImage("банано.png");
   bananaSound = loadSound("бытьдауном.mp3",
     () => { console.log("Banana sound loaded"); },
     (err) => { console.error("Error loading banana sound", err); }
@@ -16,7 +16,7 @@ function preloadBananaPlayer() {
 
 function setupBananaPlayer() {
   // Создаем кликабельное изображение банана
-  bananaButton = createImg("./обложки/банано.png", "БАНАН");
+  bananaButton = createImg("банано.png", "БАНАН");
   // Размещаем его, например, в левом верхнем углу (или где угодно по вашему выбору)
   bananaButton.position(20, 20);
   bananaButton.size(100, 100);
